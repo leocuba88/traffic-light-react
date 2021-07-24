@@ -9,7 +9,11 @@ export function Home() {
 	return (
 		<container>
 			<container className="container">
-				<div className="pole"></div>
+				<button
+					onClick={() => {
+						setColor(null);
+					}}
+					className="pole"></button>
 			</container>
 			<container className="container">
 				<div className="blackBox">
